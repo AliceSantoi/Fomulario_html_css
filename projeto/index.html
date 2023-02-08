@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <form autocomplete="off">
+            <fieldset>
+                <legend><b>Fomulário de clientes</b></legend>
+                <br>
+                <div class="inputbox">
+                   <input type="text" name="nome" id="inome" class="inputuser" required> 
+                   <label for="inome" class="inputlabel">Nome completo</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="email" id="iemail" class="inputuser" required> 
+                    <label for="iemail" class="inputlabel">Email</label>
+                 </div>
+                 <br>
+                 <div class="inputbox">
+                    <input type="tel" name="telefone" id="itelefone" class="inputuser" required> 
+                    <label for="itelefone" class="inputlabel">Telefone</label>
+                 </div>
+                 <div class="inputbox">
+                 <p>Sexo:</p>
+                 <input type="radio" name="genero" id="ifeminino" value="feminino" required>
+                 <label for="ifeminino">Feminino</label>
+                 <br>
+                 <input type="radio" name="genero" id="imasculino" value="masculino" required>
+                 <label for="imasculino">Masculino</label>
+                 <br>
+                 <input type="radio" name="genero" id="ioutro" value="outro" required>
+                 <label for="ioutro">Outro</label>
+                 <br>
+                </div>
+                <br>
+                 <div class="inputbox">
+                    <label for="idate"><b>Data de nascimento:</b></label>
+                    <input type="date" name="data" id="idata" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="cidade" id="icidade" class="inputuser" required> 
+                    <label for="icidade" class="inputlabel">Cidade</label>
+                 </div>
+                 <br>
+                 <div class="inputbox">
+                     <input type="text" name="estado" id="iestado" class="inputuser" required> 
+                     <label for="iestado" class="inputlabel">Estado</label>
+                  </div>
+                  <br>
+                  <div class="inputbox">
+                     <input type="text" name="Endereço" id="iendereco" class="inputuser" required> 
+                     <label for="iendereco" class="inputlabel">Endereço</label>
+                  </div>
+                  <br>
+                  <input type="submit" name="submit" value="Enviar" id="botao">
+                  <br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
